@@ -12,7 +12,7 @@ public class APLine
   }
 
   public boolean isOnLine(int x, int y){
-    int z = (a*x) + (b*y) + c
+    int z = (a*x) + (b*y) + c;
     return z == 0;
   }
 }
